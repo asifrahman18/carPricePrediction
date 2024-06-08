@@ -29,6 +29,7 @@ Before pre-processing, we need to visualize the data distribution and check for 
 ![Price Distribution](documents/images/distribution.png)
 *Figure 2: Price Distribution*
 
+
 Figure 2 shows the price distribution and it can be seen that the data is not a normal distribution.
 The dataset has four numeric features: mileage, year, tax and miles per gallon
 
