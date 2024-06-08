@@ -37,6 +37,7 @@ The dataset has four numeric features: mileage, year, tax and miles per gallon
 
 ![Price Distribution](documents/images/pairplot_num_1.png)
 *Figure 4: Pair plot of numeric values before pre-processing*
+
 From figure 3 and figure 4 it can be seen that the data are not distributed evenly and there are a lot of outliers.
 
 ### 2.5 Data Pre-processing
@@ -78,7 +79,7 @@ AdaBoost which is the short form of Adaptive Boosting, is an ensemble learning t
 Gradient Boosting is another ensemble learning technique which used for regression and classification tasks. It builds a model by combining the outputs of several weak learners, typically decision trees. Gradient boosting and AdaBoost share the same goal, but they differ in their approaches to combining weak learners. Gradient Boosting uses the method uses gradient descent to minimize a loss function. The loss function measures how well the model is performing, and gradient descent is used to optimize this function. In each iteration, the algorithm calculates the errors of the current model. A new weak learner is then trained to predict these errors. The final prediction is the sum of the predictions from all the weak learners, weighted by some learning rate. Some hyperparameters were adjusted, like the number of learners, learning rate, maximum depth, and minimum samples needed to split a node.
 
 ## 3. Results and Evaluation
-For evaluating our models, we used four evaluation matrices. These are Mean absolute error (MAE), Mean squared error (MSE), Root mean squared error (RMSE) and R^{2}$score.
+For evaluating our models, we used four evaluation matrices. These are Mean absolute error (MAE), Mean squared error (MSE), Root mean squared error (RMSE) and R^{2}score.
 
 Mean absolute error or MAE is the average of the absolute differences between the predicted and actual values. It is calculated by measuring the average magnitude of errors. Lower MAE values indicate better model performance as the metric shows how close predictions are to the actual outcomes on average.
 
